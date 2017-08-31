@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Compra Libros Online</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 titulo">Compra libros online </div>
+	</div>
+	<div id="hello">
+	</div>
+    
+	<div class="row">
+		<div class="col-md-12 titulo"> Carrito de Compras:</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<table class="table table-condensed">
+				<thead>
+					<tr>
+						<th>
+							#
+						</th>
+						<th>
+							Producto
+						</th>
+                        <th>
+							Cantidad
+						</th>
+						<th>
+							Precio
+						</th>
+                        <th>
+							Eliminar
+						</th>
+					</tr>
+				</thead>
+				<tbody id= "tabla-compra">
+					
+				</tbody>
+			</table>
+		</div>
+		<div class="col-md-6">
+			<table class="table table-condensed" style="margin-top: 30px;">
+				<tbody>
+					<tr>
+						<td>
+							Total Compra:
+						</td>
+						<td id="precioCompra">
+							00.00
+						</td>
+						
+					</tr>
+					<tr class="active">
+						<td>
+							Descuento:
+						</td>
+						<td id="descuento">
+							00.00 (5%)
+						</td>
+						
+					</tr>
+					<tr class="active">
+						<td>
+							IVA: (21%)
+						</td>
+						<td id="iva">
+							00.00
+						</td>
+					</tr>
+					<tr class="success">
+						<td>
+							Importe Total:
+						</td>
+						<td id="total">
+							00.00
+						</td>
+						
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

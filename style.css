@@ -1,0 +1,30 @@
+.producto{
+    		padding: 30px 10px;
+/*    		border-radius: 10px;*/
+/*    		border: 1px solid #ccc;*/
+    		text-align: center;
+            height: 500px;
+            margin: 5px,5px,5px,5px;
+    	}
+.titulo{
+    border-bottom: 1px solid #ccc; 
+    margin-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30pt;
+}
+.imgBook{
+    height: 15em;
+    
+}
+.tituloBook{
+    height: 50px;
+    font-family: 'Amatic SC';
+    font-size: 25pt;
+}
+.precioBook{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 12pt;
+}
+.botonAdd{
+    margin-top:15px;
+}
